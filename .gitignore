@@ -1,0 +1,84 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+package.json
+package-lock.json
+uplevelenv/
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+labenv/
+
+# IDE
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment files
+**/.env
+**/.env.*
+!.env.example
+.claude/settings.local.json
+.codex/
+
+# Logs and test output
+*.log
+analysis_results.json
+output.txt
+*.backup
+*.bak
+*.tmp
+*.pyc
+
+# Generated deliverables and render/QA workspaces
+deliverables/
+output/
+tmp/
+_qa_report/
+_qa_rosemary/
+_source_pages/
+_case_assets/
+_merchant_assets/
+xhs_yh_capture/
+xiyu_research/
+
+# Client capture exports and contact/source materials
+C__Users_*xhs_yh_capture*
+_source_contact.png
+_source_extract.txt
+
+# Local test leftovers
+chunsheng_preview.png
+keyue_plan_tmp.pdf
+temp_docx_output.txt
+test.txt
+test_file.txt
+test_tool_reset.txt
