@@ -4,18 +4,19 @@
 
 ## 内容范围
 
-- `*.py`：方案生成、数据处理和排版辅助脚本
-- `*.js`：文档生成、采集和浏览器辅助脚本
-- `GEO产品_多平台发布机制详解.md`：GEO 多平台发布方法论
-- `小红书抖音AI协作工作流.md`：小红书与抖音 AI 协作流程
-- `客户异议处理_*.md`：销售沟通与异议处理话术素材
-- `Instructions/`、`Labfiles/`：原项目已有的学习资料和示例代码
+- `.agents/skills/geo-sales-planner/`：GEO 销售方案 skill（流程、方法论、团队资料、需求确认模板、方案组件脚本）
+- `AGENTS.md`、`CLAUDE.md`：智能体工作规范与项目配置
+- `workspace/INDEX.md`：工作区资产索引
+- `workspace/knowledge/sales_playbooks/`：GEO 多平台发布机制、小红书抖音 AI 协作流程、客户异议处理话术、团队销售资料
+- `workspace/knowledge/case_assets/团队案例素材库_20260908/README.md`：团队案例素材说明（截图本身不上传）
+- `workspace/scripts/generators/`、`workspace/scripts/scrapers/`：方案文档生成脚本与采集辅助脚本
+- `workspace/archive/mslearn_labs/`：原项目 `Instructions/`、`Labfiles/` 学习资料归档
 
 ## 上传边界
 
-本整理版不上传已制作的客户方案、诊断报告、提案、行动清单、演示文稿和 PDF/DOCX/HTML 成品。原工作区中的 `deliverables/`、`output/`、`tmp/` 以及质检截图目录保持不变，但由 Git 忽略。
+本整理版不上传已制作的客户方案、诊断报告、提案、行动清单、演示文稿和 PDF/DOCX/HTML 成品。本地的 `workspace/projects/` 客户项目目录、`workspace/knowledge/design_templates/`，以及 `deliverables/`、`output/`、`tmp/` 和质检截图目录保持不变，但由 Git 忽略。
 
-客户抓取导出、联系人截图、来源摘录和本机权限配置也不进入 Git 提交，避免泄露客户数据或本地环境信息。
+客户抓取导出（`workspace/archive/raw_captures/`）、团队案例截图（含微信群界面）、联系人截图、来源摘录和本机权限配置也不进入 Git 提交，避免泄露客户数据或本地环境信息。
 
 完整边界记录见 `UPLOAD_INVENTORY.md`。
 

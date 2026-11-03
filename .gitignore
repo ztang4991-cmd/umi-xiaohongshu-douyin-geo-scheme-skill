@@ -75,6 +75,13 @@ C__Users_*xhs_yh_capture*
 _source_contact.png
 _source_extract.txt
 
+# Workspace client materials (kept local)
+workspace/projects/
+workspace/archive/raw_captures/
+workspace/knowledge/case_assets/**/*.png
+workspace/knowledge/case_assets/**/*.jpg
+workspace/knowledge/design_templates/
+
 # Local test leftovers
 chunsheng_preview.png
 keyue_plan_tmp.pdf
